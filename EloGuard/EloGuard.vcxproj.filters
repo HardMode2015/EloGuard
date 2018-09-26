@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Server Control">
+      <UniqueIdentifier>{a67b1d5d-ac02-4c52-9a99-f64e179af9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Encryption">
+      <UniqueIdentifier>{b13d3991-72fc-4005-a572-ea4eca629f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Encryption">
+      <UniqueIdentifier>{64e321ef-b00d-40cd-aae8-34cb7cf14e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server Control">
+      <UniqueIdentifier>{12fc0ef1-b8d6-448b-add3-04a73afdac74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Splash">
+      <UniqueIdentifier>{8bcb73d4-7297-4007-aaba-9d03ecd04a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Splash">
+      <UniqueIdentifier>{62a95d7b-18fe-4c20-bbf1-f8967293640d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Anti-Cheat">
+      <UniqueIdentifier>{9a9fdf82-60b8-4041-b246-73a709d295a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anti-Cheat">
+      <UniqueIdentifier>{b7dc7bb6-2c20-4a93-ad25-a7722c1222b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EloGuard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureUser.cpp">
+      <Filter>Source Files\Server Control</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="splash2.cpp">
+      <Filter>Source Files\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanClasses.cpp">
+      <Filter>Source Files\Anti-Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Dump.cpp">
+      <Filter>Source Files\Anti-Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanString.cpp">
+      <Filter>Source Files\Anti-Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanWindow.cpp">
+      <Filter>Source Files\Anti-Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckTBL.cpp">
+      <Filter>Source Files\Anti-Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="sha1.cpp">
+      <Filter>Source Files\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IPRetrive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Source Files\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="EloEnc.cpp">
+      <Filter>Source Files\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.c">
+      <Filter>Source Files\Encryption</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureUser.h">
+      <Filter>Header Files\Server Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Header Files\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files\Anti-Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>Header Files\Anti-Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="sha1.hpp">
+      <Filter>Header Files\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="HashBase.h">
+      <Filter>Header Files\Anti-Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="definations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Conn.h">
+      <Filter>Header Files\Anti-Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Header Files\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="EloEnc.h">
+      <Filter>Header Files\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>Header Files\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="b64.h">
+      <Filter>Header Files\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>Header Files\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="vigenere.h">
+      <Filter>Header Files\Encryption</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
